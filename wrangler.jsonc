@@ -1,0 +1,13 @@
+{
+  "name": "honeypot-observability-preview",
+  "main": "preview/cloudflare-worker.js",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "PUBLIC_DB",
+      "database_name": "honey-observatory-public-20261020",
+      "database_id": "a09057d9-10e5-4ca7-b6ba-10b56b685650"
+    }
+  ]
+}
